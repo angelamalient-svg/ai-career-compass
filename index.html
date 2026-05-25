@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Career Compass</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>🧭 AI Career Compass</h1>
+        <p>Ask anything about studies or careers</p>
+
+        <select id="mode">
+            <option value="study">Study Help</option>
+            <option value="career">Career Advice</option>
+            <option value="motivation">Motivation</option>
+        </select>
+
+        <input type="text" id="userInput" placeholder="Type your question...">
+
+        <button onclick="generateResponse()">Generate</button>
+
+        <div id="output"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
